@@ -10,7 +10,7 @@
 - Fontawesome
 
 # Ekran Görüntüleri
-![](images/screen.png)
+![](images/screenn.png)
 
 # Gif
 ![](images/screen.gif)
