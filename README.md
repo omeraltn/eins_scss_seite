@@ -1,4 +1,4 @@
-# E-Commerce Website
+# E-Kopfhörer Website
  Tüm ekranlara duyarlı responsive bir kulaklık markası websitesi geliştirildi.
 
 # Kullanılan Teknolojiler

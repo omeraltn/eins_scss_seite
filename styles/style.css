@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.foot {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 24px;
+  color: var(--first-color);
+}
+.foot .text {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.foot .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+}
+.foot .footer .card {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 5px;
+  min-width: 180px;
+}
+.foot .footer .card .card-head h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.foot .footer .card .card-body ul li a {
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.foot .footer .card .card-body ul li a:hover {
+  color: var(--first-color);
+}
+.foot .footer .send {
+  position: relative;
+  top: -30px;
+}
+.foot .footer .send .email input {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  background: #1a1919;
+  outline: none;
+  border: none;
+  color: var(--text-color);
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.foot .icn {
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.foot .icn .icns {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.foot .icn .icns a {
+  margin-left: 5px;
+  transition: all 0.5s;
+}
+.foot .icn .icns a:hover {
+  color: var(--first-color);
+}
+.foot .icn .text-foot p {
+  font-size: 16px;
+}
+
+.favori {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.favorite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.favorite .img {
+  max-width: 300px;
+  transition: all 0.8s;
+}
+.favorite .img:hover {
+  transform: scale(1.3);
+}
+.favorite .img img {
+  max-width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.favorite .img p {
+  font-size: 18px;
+}
+
+.btn {
+  padding-block: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  box-shadow: 0 12px 32px hsla(23, 100%, 50%, 0.2);
+}
+.btn i {
+  color: var(--first-color);
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 999;
+}
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding-inline: 2%;
+  white-space: nowrap;
+}
+header .content .nav-logo a {
+  color: var(--first-color);
+  font-size: 40px;
+  font-weight: var(--font-semi-bold);
+  position: relative;
+}
+header .content ul {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+header .content ul li a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.4s ease-in-out;
+}
+header .content ul li a:hover {
+  color: var(--first-color);
+}
+
+.blur-header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  -webkit-backdrop-filter: blur(32px);
+          backdrop-filter: blur(32px);
+  --webkit-backdrop-filter:blur(10px) ;
+  background-color: hsla(23, 12%, 4%, 0.2);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home {
+  height: 100vh;
+}
+.home-container {
+  margin: auto;
+}
+.home-container .follow {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 200px;
+  left: -120px;
+  font-size: 20px;
+  padding: 5px;
+}
+.home-container .follow .line {
+  width: 70px;
+  height: 1px;
+  position: absolute;
+  margin-left: 10px;
+  background: gray;
+  text-align: center;
+}
+.home-container .follow .icon {
+  margin-left: 25px;
+  cursor: pointer;
+}
+.home-container .follow .icon i {
+  display: inline-block;
+  margin-left: 5px;
+  transition: color 0.5s ease;
+}
+.home-container .follow .icon i:hover {
+  color: var(--first-color);
+}
+
+.home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 30px;
+}
+.home-container .image {
+  width: 310px;
+  position: relative;
+  z-index: 2;
+}
+.home-container .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.home-container .content {
+  white-space: nowrap;
+  color: var(--first-color);
+  font-size: 300px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: -100px;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  letter-spacing: -40px;
+  cursor: pointer;
+}
+.home-container .content span {
+  display: inline-block;
+}
+.home-container .content .indexx {
+  position: relative;
+  z-index: 1;
+}
+.home-container .content .index {
+  position: relative;
+  z-index: 3;
+}
+.home-container .tool {
+  position: relative;
+  top: -380px;
+  left: 60px;
+  z-index: 12;
+}
+.home-container .tool .tooltip {
+  position: absolute;
+}
+.home-container .tool .prices {
+  position: absolute;
+  left: 80px;
+  top: -15px;
+}
+
+.about {
+  margin-top: -250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about .text {
+  text-align: center;
+  flex-basis: 45%;
+  min-width: 400px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.about .text h2, .about .text p, .about .text div {
+  margin-top: 10px;
+}
+.about-img {
+  flex-basis: 45%;
+  min-width: 400px;
+  text-align: center;
+}
+.about-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.model {
+  text-align: center;
+  position: relative;
+}
+.model .models {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.model .models .img {
+  position: relative;
+  max-width: 300px;
+}
+.model .models .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 300px;
+}
+.model .models .btn1 {
+  position: relative;
+  top: -130px;
+}
+.model .tool {
+  position: relative;
+  top: -80px;
+  left: -70px;
+}
+.model .tool .text1 {
+  position: absolute;
+  white-space: nowrap;
+  top: -13px;
+  right: -100px;
+  background: var(--gradient-color);
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+.model .tool2 {
+  position: relative;
+  top: -190px;
+  left: 20px;
+}
+.model .tool3 {
+  position: relative;
+  top: -300px;
+  left: -10px;
+}
+.model .tool4 {
+  position: relative;
+  top: -410px;
+  left: 100px;
+}
+
+.sponsor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sponsor .komm {
+  max-width: 150px;
+  padding: 3px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.sponsor .komm:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.sponsor .komm img {
+  max-width: 150px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 400px) {
+  .about .text {
+    transform: scale(0.9);
+  }
+}
+@media screen and (max-width: 576px) {
+  .home {
+    margin-left: 90px;
+    position: relative;
+  }
+  .home .home-container {
+    transform: scale(0.8);
+    margin-top: -140px;
+    margin-bottom: 0;
+    margin-left: -50px;
+  }
+  .home .home-container .follow {
+    position: relative;
+    top: 50px;
+    left: -220px;
+  }
+  .home .home-container .follow p {
+    white-space: nowrap;
+  }
+  .home .home-container .follow .icon {
+    white-space: nowrap;
+  }
+  .home .center-title .btn {
+    position: relative;
+    left: -40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .content .navbar {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 900px) {
+  .home-container {
+    transform: scale(1.4);
+    margin-bottom: 120px;
+    margin-top: -60px;
+    transition: all 0.8s;
+  }
+  .home-container .home-content {
+    margin-left: 20px;
+  }
+  .home-container .follow {
+    position: relative;
+    bottom: -200px;
+    left: -300px;
+    font-size: 16px;
+  }
+  .home {
+    margin-bottom: 100px;
+  }
+  .home .center-title .btn {
+    padding: 12px 24px !important;
+    border-radius: 64px;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .text {
+    text-align: left;
+    line-height: 1.8;
+  }
+  .about .text .btn {
+    padding: 12px 24px;
+    border-radius: 64px;
+  }
+  .model .models {
+    transform: scale(1.2);
+    margin-top: 100px;
+  }
+  .model .models .btn1 {
+    padding: 12px 24px;
+    border-radius: 64px;
+  }
+}
+:root {
+  --header-height: 3.5rem;
+  --first-color: hsl(23, 100%, 50%);
+  --gradient-color: linear-gradient(
+    90deg,
+    hsl(23, 4%, 28%) 0%,
+    hsl(23, 4%, 8%) 100%
+  );
+  --white-color: hsl(0, 0%, 100%);
+  --text-color: hsl(23, 4%, 60%);
+  --body-color: hsl(23, 12%, 4%);
+  --container-color: hsl(23, 4%, 10%);
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 10rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /* z-index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+body {
+  background: var(--body-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+a {
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.content {
+  width: 90%;
+}
+
+.price {
+  border-radius: 15px;
+  background: var(--gradient-color);
+  text-align: center;
+  padding: 5px 10px;
+  color: var(--white-color);
+}
+
+.center-title {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

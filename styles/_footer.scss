@@ -1,0 +1,86 @@
+.foot {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 24px;
+  color: var(--first-color);
+  .text {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    column-gap: 1px;
+    
+
+    .card {
+      position: relative;
+      margin-bottom: 50px;
+      padding: 5px;
+      min-width: 180px;
+      .card-head {
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+      .card-body {
+        ul {
+          li {
+            a {
+              font-size: 16px;
+              transition: all 0.5s;
+              &:hover {
+                color: var(--first-color);
+              }
+            }
+          }
+        }
+      }
+    }
+    .send {
+      position: relative;
+      top: -30px;
+      
+      .email {
+        input {
+          width: 200px;
+          height: 50px;
+          margin-bottom: 10px;
+          background: #1a1919;
+          outline: none;
+          border: none;
+          color: var(--text-color);
+          padding-left: 10px;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  .icn {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    .icns {
+      font-size: 16px;
+      margin-bottom: 3px;
+      a {
+        margin-left: 5px;
+        transition: all 0.5s;
+        &:hover {
+          color: var(--first-color);
+        }
+      }
+    }
+    .text-foot {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

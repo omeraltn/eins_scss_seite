@@ -1,0 +1,29 @@
+.about{
+    margin-top: -250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .text{
+        text-align: center;
+        flex-basis: 45%;
+        min-width: 400px;
+        max-width: 400px;
+        margin-bottom: 20px;
+        
+        h2, p, div{
+            margin-top: 10px;
+        }
+    }
+    &-img{
+        flex-basis: 45%;
+        min-width: 400px;
+        text-align: center;
+        img{
+            object-fit: cover;
+            object-position: center;
+            max-width: 400px;
+            min-width: 400px;
+        }
+    }
+}
